@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🦋 Fluttershy's Secret</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffb3d1 0%, #fff5b3 100%);
+            font-family: 'Georgia', serif;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255,255,255,0.95);
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            border: 3px solid #ffb3d1;
+        }
+        .butterfly {
+            font-size: 80px;
+            animation: flutter 3s ease-in-out infinite;
+            margin-bottom: 20px;
+        }
+        @keyframes flutter {
+            0%, 100% { transform: translateY(0) rotate(-2deg); }
+            25% { transform: translateY(-10px) rotate(1deg); }
+            50% { transform: translateY(0) rotate(-1deg); }
+            75% { transform: translateY(-5px) rotate(2deg); }
+        }
+        h1 {
+            color: #d63384;
+            font-size: 2.5em;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .quote {
+            font-style: italic;
+            color: #6f42c1;
+            font-size: 1.2em;
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(111, 66, 193, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid #ffe854;
+        }
+        .flag {
+            font-size: 24px;
+            color: #ffa9ca;
+            background: #000;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .hint {
+            color: #e83e8c;
+            background: rgba(232, 62, 140, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: 1.1em;
+        }
+        .footer {
+            margin-top: 30px;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        .sparkle {
+            display: inline-block;
+            animation: sparkle 2s linear infinite;
+        }
+        @keyframes sparkle {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="butterfly">🦋</div>
+        <h1>You Found A Clue!</h1>
+        
+        <div class="quote">
+            "Oh my... you followed the QR code! That was very clever of you..."<br>
+            <strong>- Fluttershy</strong>
+        </div>
+        
+        <p>But I'm afraid this isn't my <em>real</em> secret!</p>
+        
+        <div class="flag">BSU{qr_c0d3s_4r3nt_th3_answ3r}</div>
+        
+        <div class="hint">
+            <strong>Hint from Fluttershy:</strong><br>
+            "I'm much more shy than this... Oh dear, maybe try looking at the photo's hidden information? 
+            Sometimes important things are hidden where nopony thinks to look! "
+        </div>
+        
+        <div class="footer">
+            <span class="sparkle">✨</span> Keep looking! The real treasure is worth finding! <span class="sparkle">✨</span><br>
+            <small><em>Remember: True friendship means looking deeper than the surface...</em></small>
+        </div>
+    </div>
+</body>
+</html>
