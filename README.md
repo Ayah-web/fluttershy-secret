@@ -7,7 +7,8 @@ Congratulations! Your OSINT investigation led you to this repository. You've dis
 ## How to View the Secret:
 
 ### Option 1: GitHub Pages (Recommended)
-Visit: **https://github.com/Ayah-web/fluttershy-secret.git**
+Visit: **[https://github.com/Ayah-web/fluttershy-secret.git](https://ayah-web.github.io/fluttershy-secret/
+)**
 
 ### Option 2: Run Locally
 1. Download the `index.html` file
